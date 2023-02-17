@@ -2,15 +2,19 @@
   "name": "cross-ws",
   "version": "1.0.0",
   "author": "mashisora <mashisora@outlook.com>",
-  "description": "A cross-platform WebSocket for node and browser.",
   "license": "MIT",
+  "description": "A cross-platform WebSocket for node and browser.",
+  "repository": "github:mashisora/cross-ws",
+  "keywords": [
+    "websocket"
+  ],
   "type": "module",
   "exports": {
     "node": "./node.js",
-    "browser": "./browser.js"
+    "default": "./index.js"
   },
-  "types": "index.d.ts",
+  "types": "./index.d.ts",
   "dependencies": {
-    "ws": "^8.12.1"
+    "ws": "*"
   }
 }
